@@ -86,7 +86,7 @@ int main (void) {
 	do{
 		printf("Enter the num:");
 		scanf( "%d", &num );
-	}while(num < 0);
+	}while( (num < 0) || (num > 7));
 	
 	while(num){
 			if ( num / EXECUTE ) {
